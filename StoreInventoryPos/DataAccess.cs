@@ -45,7 +45,7 @@ namespace WFAManagementPro
             this.Sqlcon = new SqlConnection(connectionString);
             this.Sqlcon.Open();
         }
-
+        //
         /* private void QueryText(string query)
          {
              this.Sqlcom = new SqlCommand(query, this.Sqlcon);
